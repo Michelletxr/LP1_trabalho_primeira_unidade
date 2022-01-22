@@ -1,0 +1,2 @@
+
+//configurar o cmake para dar build nos testes 

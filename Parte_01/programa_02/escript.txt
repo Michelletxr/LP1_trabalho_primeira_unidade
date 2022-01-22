@@ -1,0 +1,62 @@
+func( A, B, C)
+
+A(0,1)
+B(0,1)
+
+(x, y)
+
+primeira combinação; 
+-valor de x fixo
+-valor de y vária até chegar em 0
+
+
+conbinação 1
+(1, 1)
+y>0? 
+diminui o valor de y e continua pra prox combinação;
+
+combinação 2 
+(1, 0) 
+
+y = 0? 
+
+Quando o valor de y chegar em 0, passamos pra coluna do x
+
+reinicia o valor de y=1;
+diminui o valor de x;
+
+combinação 3
+(0,1)
+
+y>0?
+diminui o valor de y;
+
+
+combinação 4
+(0,0)
+y=0? verifica o x
+x = 0?
+
+termina a execução
+
+linha A (1, 0) 
+linha B (1, 0)
+
+varia linha B deixa fixo a linha A 
+A(1) + B(1), A(1) + B(0)
+
+quando a linha B atingir o valor zero pulamos pra linha A
+
+acrescentamos a linha A 
+A(1) -> A(0)
+volta pra linha B com o valor inicial
+B(0) -> B(1)
+
+varia a linha B até chegar no valor 0
+A(0) + B(1), A(0) + B(0) 
+
+quando a linha B atingir o valor 0 pulamos novamente pra linha A
+
+A(0) como A esta com valor 0 não possibilidade de acrescentar um novo valor
+
+encerra programa
